@@ -1,0 +1,19 @@
+.ActiveUsers {
+  display: flex;
+  flex-direction: column;
+}
+
+.ActiveUsers h3 {
+  margin-bottom: 10px;
+}
+
+.ActiveUsers ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ActiveUsers li {
+  color: #9b59b6; /* Light purple color */
+  margin-bottom: 5px;
+}

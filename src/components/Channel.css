@@ -1,0 +1,84 @@
+.Channel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.leftContainer,
+.rightContainer,
+.farRightContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.leftContainer {
+  flex: 4;
+  border-right: 1px solid #ccc;
+}
+
+.rightContainer {
+  flex: 5;
+  border-right: 1px solid #ccc;
+}
+
+.farRightContainer {
+  flex: 1;
+}
+
+.videoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.queueSuggestionsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.queueContainer,
+.suggestionsContainer {
+  margin-bottom: 15px;
+}
+
+.queueContainer {
+  overflow-y: auto;
+  width: 50%;
+  max-height: 300px;
+}
+
+.suggestionsContainer {
+  overflow-y: auto;
+  width: 50%;
+  max-height: 300px;
+}
+
+.queueContainer ul,
+.suggestionsContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.queueContainer li,
+.suggestionsContainer li {
+  margin-bottom: 5px;
+}
+
+button {
+  align-self: center;
+}
+
+.song-delete {
+  cursor: pointer;
+  margin-left: 16px;
+  color: rgb(255, 0, 85);
+}

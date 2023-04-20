@@ -1,0 +1,35 @@
+.MessageList {
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.MessageList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.MessageList li {
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.messageButton {
+  font-size: 12px;
+  padding: 4px 8px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f1c40f;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.messageButton:hover {
+  background-color: #f39c12;
+}

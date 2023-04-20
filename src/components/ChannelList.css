@@ -1,0 +1,30 @@
+.ChannelListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ChannelListContainer h2 {
+  margin-bottom: 10px;
+}
+
+.ChannelList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ChannelList div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.joinButton {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
